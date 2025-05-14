@@ -39,4 +39,4 @@ full_ds_trainaug = datasets.ImageFolder(root=DATA_DIR, transform=transform_train
 full_ds_val      = datasets.ImageFolder(root=DATA_DIR, transform=transform_val)
 
 # Print total number of images in the dataset
-print("Total imagens (com novas fotos):", len(full_ds_trainaug))
+print("Total imagens (com novas fotos de flores):", len(full_ds_trainaug))
